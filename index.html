@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="pk" href="images/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan's Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/0319de4e6d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Pavan Kapakayala</span><br>From INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!--------About------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image (3).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Kapakayala Siva Sai Pavan, a passionate programmer with a knack for coding skills and web development. 
+                        With a background in Html-CSS,JavaScript,C(programming language), Python, Java, MySQL. I thrive on creating innovative solutions and bringing ideas to life.
+                         I specialize in web development, always striving to stay ahead of industry trends and deliver exceptional results.<br>
+                         When I'm not Software Developer, you can find me as a Photograper or Editor. Let's connect and explore how we can collaborate on exciting projects!</p>
+                         <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="Education">
+                            <ul>
+                                <li><span>Under Graduate</span><br>Persuing BS(HONS)In Computer Science from SSSIHL</li>
+                                <li><span>High School</span><br>In MPC-CS(CBSE)From SSSIE,Chennai</li>
+                                <li><span>Schooling</span><br>From SSSGEMS(ICSE),Rajahmundry</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Projects">
+                            <ul>
+                                <li><span>UG-Current</span><br>Pawan's Portfolio(using HTML CSS)</li>
+                                <li><span>High School-2023</span><br>Ydhya-An Hospital Management System(using Python and MySQL)</li>
+                                <li><span>Schooling-2021</span><br>Simple Calculator(using Java)</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>C, Java, Python</li>
+                                <li><span>UI/UX design</span><br>HTML-CSS, Figma</li>
+                                <li><span>DBMS</span><br>MySQL</li>
+                                <li><span>SoftSkills</span><br>Photography, Video Editing</li>
+
+                            </ul>
+                         </div>
+                         </div>
+                </div>
+            </div>
+        </div>
+        <!--------services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web development</h2>
+                        <p>"Building Responsive Websites, Custom Web Applications, 
+                            and User-Friendly Interfaces"</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX</h2>
+                        <p>"Designing Intuitive Interfaces, Enhancing User Experiences, 
+                            and Crafting Engaging Digital Products"</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Freelance Programmer</h2>
+                        <p>"Offering Custom Software Solutions, Efficient Coding in C, 
+                            Java, and Python, and Robust Application Development"</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---------portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Ydhya App</h3>
+                    <p>"Ydhya: Efficient Hospital Management Powered by Python and MySQL"</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>FunCalc</h3>
+                    <p>"FunCalc: Your Friendly Math Companion!"</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Photography & Editing</h3>
+                    <p>"Capturing Moments, Crafting Memories: My Journey in Photography and Editing"</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>  pawankapakayala@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>  8688252313</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pawan-kapakayala-a4b9b3254/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/pawan.kapakayala.3/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/__pawan_ias__/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://x.com/PawanKapakayala"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/pawankapakayala"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pawan Kapakayala</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<!---------------script for open menu-->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5MaBnrL6g04HV-UpXnOErUz0mcF9juNyKQ3GwNg6JjG18QxwlsjuiVZSi47OSIKJ0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+               msg.innerHTML = "Message Sent Successfully" 
+               setTimeout(function()  {
+                msg.innerHTML=""
+               },5000)
+               form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
+
